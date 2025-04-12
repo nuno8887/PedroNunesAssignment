@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YouTube Video Subtitles Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>YouTube Video Subtitles Finder</h1>
+  <input type="text" id="videoQuery" placeholder="Enter video name..." />
+  <button id="searchVideos">Search Videos</button>
+
+  <h2>Search Results</h2>
+  <div id="searchResults">
+
+  </div>
+
+  <div class="header-row">
+    <h2>Subtitles</h2>
+    <div>
+      <label for="langSelect">Language: </label>
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="pt">Portuguese</option>
+        <option value="de">German</option>
+      </select>
+      <button id="changeLangButton">Change Language</button>
+    </div>
+  </div>
+  <div id="transcript">Subtitles will appear here...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

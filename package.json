@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@google-cloud/translate": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "youtube-captions-scraper": "^2.0.3",
+    "youtube-transcript": "^1.2.1"
+  }
+}
